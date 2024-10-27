@@ -8,7 +8,7 @@ neversink_slug: Bestony's Deck
 ---
 
 
-# Craft Content Framework: 如何构造一个面向开发者友好的内容框架
+# Craft Content Framework <br/> 如何构造一个面向开发者友好的内容框架
 
 by **HuanCheng Bai**
 
