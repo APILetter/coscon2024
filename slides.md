@@ -54,9 +54,8 @@ align: l-lt-lt
 :: left ::
 
 - 我曾经服务于飞书开放平台，担任 OpenAPI & 开发者体验产品经理
-- 在我去的时候，我遇到了一个很严重的问题：**文档内容混乱**
+- 在我去的时候，发现了一个很严重的问题：**由于文档内容混乱，导致用户在文档中如无头苍蝇般来回溜达**
 
-![](https://postimg.aliavv.com/m1/wqsm65.png)
 
 :: right ::
 
@@ -65,10 +64,9 @@ align: l-lt-lt
 - 到处是各种 API 文档
 - 用户找不到需要的文档
 
+---
 
-<v-click>
-	现在问题已经得到解决。
-</v-click>
+![](https://postimg.aliavv.com/m1/wqsm65.png)
 
 ---
 
