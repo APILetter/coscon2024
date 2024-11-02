@@ -3,7 +3,7 @@ theme: neversink
 title: Craft Content Framework 如何构造一个面向开发者友好的内容框架
 mdc: true
 layout: cover
-neversink_slug: Bestony's Deck
+neversink_slug: coscon2024.apiletter.com
 
 ---
 
