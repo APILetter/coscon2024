@@ -142,7 +142,7 @@ layout: section
 
 ---
 
-# Craft Content Framework
+# Craft Content Framework 设计原则
 
 1. 开发者文档由功能性内容（Functional Content）、教程（Tutorials）、指南（Guides）、参考文档（Reference）、法律相关文档（Legal）组成。
 2. 开发者文档应根据使用用户的身份及其意图设计。主要用户有：产品经理（调研）、研发工程师（调研、开发使用）。
