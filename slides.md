@@ -141,6 +141,14 @@ layout: section
 
 
 ---
+
+# Craft Content Framework
+
+1. 开发者文档由功能性内容（Functional Content）、教程（Tutorials）、指南（Guides）、参考文档（Reference）、法律相关文档（Legal）组成。
+2. 开发者文档应根据使用用户的身份及其意图设计。主要用户有：产品经理（调研）、研发工程师（调研、开发使用）。
+3. 开发者文档应接入自动化流程，由系统生成指南，人工维护功能性内容、教程、指南、参考文档、法律相关文档等。
+
+---
 layout: two-cols-title
 columns: is-4
 ---
@@ -189,6 +197,7 @@ align: rm-lm
 	- 产品收费/计费等问题
 	- 产品商务/联系方式等问题
 - 主要人群：产品经理 / 调研期研发 
+
 
 <SpeechBubble position="r" color='sky' shape="round" maxWidth="300px">
 这个产品可以实现 XXXX 么？
@@ -271,6 +280,30 @@ align: rm-lm
 
 - 主要人群：在接入过程中遇到麻烦/具体调优时的研发。
 
+
+---
+layout: side-title
+side: l
+color: violet
+titlewidth: is-4
+align: rm-lm
+---
+
+:: title ::
+
+# `Legal`
+
+# <mdi-arrow-right />
+
+:: content ::
+
+- Legal 法律相关文档
+	- 帮助用户在使用时，明确你的系统的一些法律、Spec 相关的内容。
+	- 常见的有用户协议、SLA 等。
+
+- 主要人群：在调研过程中需要感知产品法律规范，规避法律风险的产品、研发。
+
+
 ---
 layout: section
 ---
@@ -301,7 +334,6 @@ align: rm-lm
 	- 帮助用户摆脱法律的困惑，合法合规的使用你的平台
 
 - 主要人群：产品经理/运营
-
 
 
 ---
