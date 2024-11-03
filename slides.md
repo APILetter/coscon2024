@@ -330,8 +330,7 @@ align: rm-lm
 ---
 layout: section
 ---
-<IceCream :size="140" mood="sad" color="#FDA7DC" />
-
+<Cat :size="140" mood="sad" color="#FDA7DC" class="mb-5" />
 
 <SpeechBubble position="tl" color='pink-light' shape="round" maxWidth="500px">
 如果开发者频繁在看你的 Reference，说明你的开发指南写的不够好。
@@ -391,10 +390,27 @@ layout: section
 
 - Start From Fork
 - https://github.com/APILetter/craft-vitepress
+
+
 ---
-layout: section
-color: sky-light
-class: text-center
+layout: side-title
+side: l
+color: violet
+titlewidth: is-4
+align: rm-lm
+title: Side Title Layout (Another)
 ---
 
-# Q & A
+:: title ::
+
+# `Q & A`
+
+
+:: content ::
+
+### 添加个人微信
+<img class="w-40" src="https://r2.ixiqin.com/2024/11/322be6772b15fcdfde17f7930557d1c0.png" />
+
+### 关注我的个人微信公众号
+
+<img class="w-40" src="https://r2.ixiqin.com/2024/11/efd2e56102096302db7a354c94f6008a.jpg" />
