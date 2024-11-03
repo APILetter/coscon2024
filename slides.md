@@ -391,8 +391,6 @@ layout: section
 
 - Start From Fork
 - https://github.com/APILetter/craft-vitepress
-- https://github.com/APILetter/craft-docusaurus
-
 ---
 layout: section
 color: sky-light
