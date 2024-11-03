@@ -7,7 +7,6 @@ neversink_slug: coscon2024.apiletter.com
 
 ---
 
-
 # Craft Content Framework <br/> 如何构造一个面向开发者友好的内容框架
 
 by **HuanCheng Bai**
@@ -31,10 +30,9 @@ align: l-lt-lt
 
 :: left ::
 
- - 前飞书开放平台产品经理
- - APIletter.com 作者
- - 工程师
-
+- 前飞书开放平台产品经理
+- APIletter.com 作者
+- 工程师
 
 :: right ::
 
@@ -54,7 +52,6 @@ align: l-lt-lt
 
 - 我曾经服务于飞书开放平台，担任 OpenAPI & 开发者体验产品经理
 - 在我去的时候，发现了一个很严重的问题：**由于文档内容混乱，导致用户在文档中如无头苍蝇般来回溜达**
-
 
 :: right ::
 
@@ -130,15 +127,18 @@ color: white
 # 好的内容应该是这样的！
 
 - **面向用户设计的**：开发者文档的用户是==开发者==，因此，要用开发者熟悉的语言和方式，交付你的开发者文档。
-- **用户路径导向的**：开发者文档的用户是开发者，开发者依然有行为习惯。开发者不同，但也没有那么不同，你依然可以**设计用户的路径，来帮助他更好的 Landing**。
-- **以用户场景为基础的**：开发者文档的读者看文档不是为了娱乐，而是**为了完成自己的工作任务**，因此，要尽可能的为你的用户考虑，他们的需求到底是什么，跟着他们的需求去做事。
-- **以开发内容为基础，精心编撰过的**：开发者不喜欢写文档，但开发者也不喜欢别人不写文档。那就让**开发者提供基础内容，再由专业人士（Technical Writer）进行写作层面的优化**，确保用户能够更好的阅读。
+- **用户路径导向的**：开发者文档的用户是开发者，开发者依然有行为习惯。开发者不同，但也没有那么不同，你依然可以*
+  *设计用户的路径，来帮助他更好的 Landing**。
+- **以用户场景为基础的**：开发者文档的读者看文档不是为了娱乐，而是**为了完成自己的工作任务**
+  ，因此，要尽可能的为你的用户考虑，他们的需求到底是什么，跟着他们的需求去做事。
+- **以开发内容为基础，精心编撰过的**：开发者不喜欢写文档，但开发者也不喜欢别人不写文档。那就让**开发者提供基础内容，再由专业人士（Technical
+  Writer）进行写作层面的优化**，确保用户能够更好的阅读。
+
 ---
 layout: section
 ---
 
 # Craft Content Framework
-
 
 ---
 
@@ -148,14 +148,13 @@ layout: section
 2. 开发者文档应根据使用用户的身份及其意图设计。主要用户有：产品经理（调研）、研发工程师（调研、开发使用）。
 3. 开发者文档应接入自动化流程，由系统生成指南，人工维护功能性内容、教程、指南、参考文档、法律相关文档等。
 
-
-
 ---
 layout: two-cols-title
 columns: is-4
 ---
 
 :: title ::
+
 # Craft Content Framework
 
 :: left ::
@@ -198,7 +197,6 @@ pie title 开发者文档内容占比
     └── 隐私协议
 ```
 
-
 ---
 layout: side-title
 side: l
@@ -216,11 +214,10 @@ align: rm-lm
 :: content ::
 
 - Functional Content 功能性内容服务于非纯粹技术需求的场景
-	- 需求调研（判断这个产品是否可以解决我的问题）
-	- 产品收费/计费等问题
-	- 产品商务/联系方式等问题
-- 主要人群：产品经理 / 调研期研发 
-
+    - 需求调研（判断这个产品是否可以解决我的问题）
+    - 产品收费/计费等问题
+    - 产品商务/联系方式等问题
+- 主要人群：产品经理 / 调研期研发
 
 <SpeechBubble position="r" color='sky' shape="round" maxWidth="300px">
 这个产品可以实现 XXXX 么？
@@ -243,10 +240,10 @@ align: rm-lm
 :: content ::
 
 - Tutorials 教程/新手指南
-	- 帮助用户快速 Landing 你的产品；
+    - 帮助用户快速 Landing 你的产品；
 
-		- 比如 Quick Start
-		- 比如 完成某个独立的功能。
+        - 比如 Quick Start
+        - 比如 完成某个独立的功能。
 
 - 主要人群：开始接入 & 评估的研发
 
@@ -271,9 +268,9 @@ align: rm-lm
 :: content ::
 
 - Guide 指南
-	- 帮助用户解决你的产品细节问题。
-		- 如何调优
-		- 如何实现某个细节功能。
+    - 帮助用户解决你的产品细节问题。
+        - 如何调优
+        - 如何实现某个细节功能。
 
 - 主要人群：已经完成接入，开始进行业务开发的研发。
 
@@ -299,10 +296,9 @@ align: rm-lm
 :: content ::
 
 - Reference 参考文档
-	- 帮助用户在使用你的文档时，需要查看一些细节参数
+    - 帮助用户在使用你的文档时，需要查看一些细节参数
 
 - 主要人群：在接入过程中遇到麻烦/具体调优时的研发。
-
 
 ---
 layout: side-title
@@ -321,11 +317,10 @@ align: rm-lm
 :: content ::
 
 - Legal 法律相关文档
-	- 帮助用户在使用时，明确你的系统的一些法律、Spec 相关的内容。
-	- 常见的有用户协议、SLA 等。
+    - 帮助用户在使用时，明确你的系统的一些法律、Spec 相关的内容。
+    - 常见的有用户协议、SLA 等。
 
 - 主要人群：在调研过程中需要感知产品法律规范，规避法律风险的产品、研发。
-
 
 ---
 layout: section
@@ -353,10 +348,9 @@ align: rm-lm
 :: content ::
 
 - Legal 法律文本
-	- 帮助用户摆脱法律的困惑，合法合规的使用你的平台
+    - 帮助用户摆脱法律的困惑，合法合规的使用你的平台
 
 - 主要人群：产品经理/运营
-
 
 ---
 layout: two-cols-title
@@ -364,6 +358,7 @@ columns: is-4
 ---
 
 :: title ::
+
 # Core - Craft Content Framework
 
 :: left ::
@@ -381,7 +376,6 @@ pie title 开发者文档内容占比
     "Reference": 30
 ```
 
-
 ---
 layout: section
 ---
@@ -390,7 +384,6 @@ layout: section
 
 - Start From Fork
 - https://github.com/APILetter/craft-vitepress
-
 
 ---
 layout: side-title
@@ -405,12 +398,12 @@ title: Side Title Layout (Another)
 
 # `Q & A`
 
-
 :: content ::
 
 ### 添加个人微信
-<img class="w-40" src="https://r2.ixiqin.com/2024/11/322be6772b15fcdfde17f7930557d1c0.png" />
+
+<img class="w-40" src="https://r2.ixiqin.com/2024/11/322be6772b15fcdfde17f7930557d1c0.png" alt='self wechat' />
 
 ### 关注我的个人微信公众号
 
-<img class="w-40" src="https://r2.ixiqin.com/2024/11/efd2e56102096302db7a354c94f6008a.jpg" />
+<img class="w-40" src="https://r2.ixiqin.com/2024/11/efd2e56102096302db7a354c94f6008a.jpg"  alt="self wechat official"/>
